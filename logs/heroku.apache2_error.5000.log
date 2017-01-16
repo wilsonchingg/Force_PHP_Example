@@ -1,0 +1,25 @@
+[Sun Jan 15 18:41:01.565644 2017] [core:error] [pid 1753] (13)Permission denied: [client ::1:49925] AH00035: access to / denied (filesystem path '/Users/C237524/Documents/php') because search permissions are missing on a component of the path
+[Sun Jan 15 18:41:01.656325 2017] [core:error] [pid 1753] (13)Permission denied: [client ::1:49925] AH00035: access to /favicon.ico denied (filesystem path '/Users/C237524/Documents/php') because search permissions are missing on a component of the path, referer: http://localhost:5000/
+[Sun Jan 15 18:45:51.115929 2017] [core:alert] [pid 1758] [client ::1:50061] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Sun Jan 15 18:45:51.139815 2017] [core:alert] [pid 1753] [client ::1:50062] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost:5000/
+[Sun Jan 15 18:49:40.237120 2017] [core:alert] [pid 1757] [client ::1:50236] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Sun Jan 15 18:49:40.257132 2017] [core:alert] [pid 1758] [client ::1:50237] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost:5000/
+[Sun Jan 15 18:49:42.178437 2017] [core:alert] [pid 1753] [client ::1:50238] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Sun Jan 15 18:49:42.193558 2017] [core:alert] [pid 1756] [client ::1:50239] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost:5000/
+[Sun Jan 15 18:50:21.743328 2017] [core:alert] [pid 2154] [client ::1:50260] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Sun Jan 15 18:50:21.764009 2017] [core:alert] [pid 2154] [client ::1:50261] /Users/C237524/Documents/php/php-getting-started/web/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost:5000/
+[Sun Jan 15 18:51:57.480934 2017] [proxy:error] [pid 2156] (13)Permission denied: AH02454: FCGI: attempt to connect to Unix domain socket /tmp/heroku.fcgi.5000.sock (heroku-fcgi) failed
+[Sun Jan 15 18:51:57.481196 2017] [proxy:error] [pid 2156] AH00959: ap_proxy_connect_backend disabling worker for (heroku-fcgi) for 60s
+[Sun Jan 15 18:51:57.481217 2017] [proxy_fcgi:error] [pid 2156] [client ::1:50489] AH01079: failed to make connection to backend: httpd-UDS
+[Sun Jan 15 18:53:27.266491 2017] [proxy:error] [pid 2428] (13)Permission denied: AH02454: FCGI: attempt to connect to Unix domain socket /tmp/heroku.fcgi.5000.sock (heroku-fcgi) failed
+[Sun Jan 15 18:53:27.266599 2017] [proxy:error] [pid 2428] AH00959: ap_proxy_connect_backend disabling worker for (heroku-fcgi) for 60s
+[Sun Jan 15 18:53:27.266620 2017] [proxy_fcgi:error] [pid 2428] [client ::1:50534] AH01079: failed to make connection to backend: httpd-UDS
+[Sun Jan 15 18:53:28.144518 2017] [proxy:error] [pid 2428] AH00940: FCGI: disabled connection for (heroku-fcgi)
+[Sun Jan 15 18:53:30.310527 2017] [proxy:error] [pid 2429] (13)Permission denied: AH02454: FCGI: attempt to connect to Unix domain socket /tmp/heroku.fcgi.5000.sock (heroku-fcgi) failed
+[Sun Jan 15 18:53:30.310619 2017] [proxy:error] [pid 2429] AH00959: ap_proxy_connect_backend disabling worker for (heroku-fcgi) for 60s
+[Sun Jan 15 18:53:30.310632 2017] [proxy_fcgi:error] [pid 2429] [client ::1:50536] AH01079: failed to make connection to backend: httpd-UDS
+[Sun Jan 15 18:53:31.774111 2017] [proxy:error] [pid 2428] AH00940: FCGI: disabled connection for (heroku-fcgi)
+[Sun Jan 15 18:53:47.365916 2017] [proxy:error] [pid 2429] AH00940: FCGI: disabled connection for (heroku-fcgi)
+[Sun Jan 15 22:37:04.966269 2017] [proxy:error] [pid 2428] (13)Permission denied: AH02454: FCGI: attempt to connect to Unix domain socket /tmp/heroku.fcgi.5000.sock (heroku-fcgi) failed
+[Sun Jan 15 22:37:04.966919 2017] [proxy:error] [pid 2428] AH00959: ap_proxy_connect_backend disabling worker for (heroku-fcgi) for 60s
+[Sun Jan 15 22:37:04.967328 2017] [proxy_fcgi:error] [pid 2428] [client ::1:52570] AH01079: failed to make connection to backend: httpd-UDS
