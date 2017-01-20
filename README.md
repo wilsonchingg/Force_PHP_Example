@@ -9,8 +9,8 @@ Navigate to web/index.php to check out how easy it is to make a query
 Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
+$ git clone https://github.com/wilsonchingg/Force_PHP_Example.git
+$ cd Force_PHP_Example
 $ heroku create
 $ git push heroku master
 $ heroku open
